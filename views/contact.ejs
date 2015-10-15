@@ -1,16 +1,20 @@
- <%-include partials/header.ejs %>
+<!--Name: Nathan Siu
+    Student Number:200281793
+    Page:Contact Page
+--> 
+<%-include partials/header.ejs %> <!-- calling header-->
 
-<div class="container">
-    <div class="row">
+<div class="container"><!--holds jumbotron-->
+    <div class="row"><!-- centers jumbotron-->
     <div class="jumbotron">
     
-    <h1 class="text-center">Contact Me</h1>
+    <h1 class="text-center">Contact Me</h1> <!--center align for text-->
         
 <form>
-    <div class="container center_div">
-    <div class="form-group">
+    <div class="container center_div"> <!-- aligning the whole form to center-->
+    <div class="form-group"> <!-- using the style from the form group class and applying it every input-->
     First Name:<br/>
-    <input type="text" class="form-control" name="firstname" placeholder="First Name"><br/>
+    <input type="text" class="form-control" name="firstname" placeholder="First Name"><br/> <!--using form control class and place holder-->
     </div>
         
     <div class="form-group">
@@ -24,11 +28,11 @@
   <input type="text" class="form-control" name="email" placeholder="Email Address"><br/>
     </div>
     
-        
+        <div class="form-group">
        Enter your message:<br/>
         <textarea name="message" class="form-control" form="contact" rows="4" cols="50" placeholder="Type your message here"></textarea><br/>
-    
-    <input type="submit" value="Submit">
+        </div>
+    <input type="submit" value="Submit"> <!-- submit button-->
     </div>
         
      
